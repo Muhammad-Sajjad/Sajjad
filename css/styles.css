@@ -2,26 +2,17 @@ body{
     margin: 0 0 auto 0;
     text-align: center;
     background-color: snow;
-    color: grey;
 }
 
 hr{
     margin: 0;
     border-color: grey;
 }
-.top-container{
-    padding: 0 0 0 0;
-    text-align: center;
-    font-family: 'Sacramento', cursive;
-    background-color:#f3fafe;
-}
 
-.bottom-container{
-    background-color: #f3fafe;
-}
 
 h1{
     display: inline-block;
+    font-family: 'Sacramento', cursive;
     width: 400px;
     margin: 0;
     font-size: 5.625rem;
@@ -33,16 +24,9 @@ h3{
     color: #11999E;
 }
 p{
-    font-size: 1.5rem;
-}
-
-.heading{
-    position: relative;
-    width: 300px;
-    left: 700px;
-    font-size: x-large;
-    font-weight: bold;
-    margin: 10px 0;
+    font-size: 1.2rem;
+    /*font-family: 'Nerko One', cursive;*/
+    
 }
 
 div{
@@ -51,6 +35,23 @@ div{
 
 .mountains{
     height: 500px;
+}
+
+.top-container{
+    padding: 0 0 0 0;
+    text-align: center;
+    background-color:#f3fafe;
+}
+
+.middle-container{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    padding: 0;
+}
+
+.bottom-container{
+    background-color: #f3fafe;
 }
 
 .sky{
@@ -70,13 +71,46 @@ div{
     right: 120px;
 }
 
-.icons{
-    background-color: #663333;
-    border-radius: 250px;
-    height: 250px;
-    width: 250px;
+.image{
+    background-color: maroon;
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
 }
 
+.icons{
+    float: left;
+    margin: 30px 30px 5px 10px;
+}
+
+.guitar{
+    float: right;
+    margin-left: 30px;
+}
+
+.heading{
+    position: relative;
+    font-family: 'Sacramento', cursive;
+    width: 300px;
+    left: 700px;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.skill-row{
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.leftclear{
+    clear: left;
+}
+
+.rightclear{
+    clear: right;
+}
 .footer-link{
     color: #11999E;
 }
