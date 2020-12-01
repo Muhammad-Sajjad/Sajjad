@@ -1,13 +1,52 @@
 body{
     margin: 0 0 auto 0;
+    text-align: center;
+    background-color: snow;
+    color: grey;
 }
 
-.firstdiv{
+hr{
+    margin: 0;
+    border-color: grey;
+}
+.top-container{
     padding: 0 0 0 0;
     text-align: center;
     font-family: 'Sacramento', cursive;
-    color: grey;
     background-color:#f3fafe;
+}
+
+.bottom-container{
+    background-color: #f3fafe;
+}
+
+h1{
+    display: inline-block;
+    width: 400px;
+    margin: 0;
+    font-size: 5.625rem;
+}
+h2{
+    color:  #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+p{
+    font-size: 1.5rem;
+}
+
+.heading{
+    position: relative;
+    width: 300px;
+    left: 700px;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+div{
+    padding: 50px;
 }
 
 .mountains{
@@ -17,20 +56,6 @@ body{
 .sky{
     height: 100px;
     width: 100%;
-}
-
-h1{
-    display: inline-block;
-    width: 200px;
-    margin: 0;
-}
-
-.heading{
-    position: relative;
-    width: 300px;
-    left: 600px;
-    font-size: large;
-    margin: 10px 0;
 }
 
 .cloud1{
@@ -43,4 +68,15 @@ h1{
     position: absolute;
     bottom: 200px;
     right: 120px;
+}
+
+.icons{
+    background-color: #663333;
+    border-radius: 250px;
+    height: 250px;
+    width: 250px;
+}
+
+.footer-link{
+    color: #11999E;
 }
