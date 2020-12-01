@@ -1,0 +1,46 @@
+body{
+    margin: 0 0 auto 0;
+}
+
+.firstdiv{
+    padding: 0 0 0 0;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: grey;
+    background-color:#f3fafe;
+}
+
+.mountains{
+    height: 500px;
+}
+
+.sky{
+    height: 100px;
+    width: 100%;
+}
+
+h1{
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+}
+
+.heading{
+    position: relative;
+    width: 300px;
+    left: 600px;
+    font-size: large;
+    margin: 10px 0;
+}
+
+.cloud1{
+    position: absolute;
+    left: 120px;
+    top: 150px;
+}
+
+.cloud2{
+    position: absolute;
+    bottom: 200px;
+    right: 120px;
+}
