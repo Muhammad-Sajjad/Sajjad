@@ -2,6 +2,7 @@ body{
     margin: 0 0 auto 0;
     text-align: center;
     background-color: snow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr{
@@ -29,7 +30,6 @@ h3{
 p{
     font-size: 1.2rem;
     color: #40514E;
-    /*font-family: 'Nerko One', cursive;*/
     
 }
 
@@ -130,21 +130,19 @@ div{
     clear: right;
 }
 
-.btn{
-    text-decoration: solid;
-    border: #11999E solid ;
-    background-color: #11999E;
-    color: white;
-    padding: 10px;
-    border-radius: 5%;
-    font-size: x-large;
-    font-style: normal;
+.btn {
+    text-decoration: none;
+	background-color: #11999E;
+	border-radius:14px;
+	color: snow;
+	font-size:17px;
+	padding:15px 15px;
 }
-
-.btn:hover{
-    background-color: white;
+.btn:hover {
+    background-color: snow;
     color: #11999E;
-    transition-duration: 500ms;
+    border: #11999E solid;
+    transition-duration: 0.7s;
 }
 
 .footer-link{
